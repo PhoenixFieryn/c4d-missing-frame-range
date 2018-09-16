@@ -26,4 +26,11 @@ function calculate(input) {
   })
 
   console.log(result);
+
+  return result;
+}
+
+function execute() {
+  let input = document.getElementById('framesInput').value;
+  document.getElementById('output').innerHTML = calculate(input);
 }
